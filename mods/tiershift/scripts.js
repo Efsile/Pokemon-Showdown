@@ -9,14 +9,15 @@ exports.BattleScripts = {
 
 			switch (tier) {
 			case 'UU':
-			case 'BL2':
+			case 'BL':
 				adjustment = 5;
 				break;
 			case 'RU':
-			case 'BL3':
+			case 'BL2':
 				adjustment = 10;
 				break;
 			case 'NU':
+			case 'BL3':
 			case 'BL4':
 			case 'PU':
 			case 'NFE':
